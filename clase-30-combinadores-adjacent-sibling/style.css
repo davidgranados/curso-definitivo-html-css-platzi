@@ -1,0 +1,12 @@
+/* adjacent sibling */
+.adjacent-sibling h2 + p {
+  color: red;
+}
+/* general sibling */
+.general-sibling h2 ~ p {
+  color: red;
+}
+/* direct child */
+.children-and-descendants div > p {
+  color: red;
+}
